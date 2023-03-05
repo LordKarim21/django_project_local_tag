@@ -1,0 +1,8 @@
+<ul style=" width: 150px;border: 1px solid #c4c4c4;
+    padding-left: 25px;">
+    {% for item in menu %}
+    <li style="position: relative;">
+        <a href="{{ item.slug }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
